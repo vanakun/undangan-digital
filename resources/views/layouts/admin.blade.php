@@ -7,17 +7,15 @@
     <meta name="author" content="abdulbasit-dev">
     <title>Laravel Windmill Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="{{asset('assets/css/tailwind.output.css')}}"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/tailwind.output.css') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/css/Chart.min.css') }}"/>
-
-    {{-- favicon --}}
+    
+    
+    <!-- favicon -->
     <link rel="icon" sizes="180x180" href="{{ asset('assets/img/windmill.png') }}">
 </head>
 <body>
-<div
-        class="flex h-screen bg-gray-50 dark:bg-gray-900"
-        :class="{ 'overflow-hidden': isSideMenuOpen }"
->
+<div class="flex h-screen bg-gray-50 dark:bg-gray-900" :class="{ 'overflow-hidden': isSideMenuOpen }">
     <!-- Desktop sidebar -->
     @include('includes.desktop-sidebar')
 
@@ -32,10 +30,10 @@
     </div>
 </div>
 
-<script src="{{ asset("assets/js/alpine.min.js") }}" defer></script>
-<script src="{{ asset("assets/js/Chart.min.js") }}" defer></script>
-<script src="{{ asset("assets/js/init-alpine.js") }}"></script>
-<script src="{{ asset("assets/js/charts-lines.js") }}" defer></script>
-<script src="{{ asset("assets/js/charts-pie.js") }}" defer></script>
+<script src="{{ asset('assets/js/alpine.min.js') }}" defer></script>
+<script src="{{ asset('assets/js/Chart.min.js') }}" defer></script>
+<script src="{{ asset('assets/js/init-alpine.js') }}"></script>
+<script src="{{ asset('assets/js/charts-lines.js') }}" defer></script>
+<script src="{{ asset('assets/js/charts-pie.js') }}" defer></script>
 </body>
 </html>
