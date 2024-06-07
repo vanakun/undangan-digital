@@ -2,31 +2,40 @@
     "version": 2,
     "name": "laravel-app",
     "builds": [
-        {
-            "src": "public/index.php",
-            "use": "@vercel/php"
-        },
-        {
-            "src": "public/**/*",
-            "use": "@vercel/static"
-        }
+      {
+        "src": "api/index.php",
+        "use": "@vercel/php"
+      },
+      {
+        "src": "public/index.php",
+        "use": "@vercel/php"
+      },
+      {
+        "src": "public/**/*",
+        "use": "@vercel/static"
+      }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/public/index.php"
-        }
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/index.php"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/public/index.php"
+      }
     ],
     "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_KEY": "@app_key",
-        "APP_URL": "https://your-vercel-app-url",
-        "DB_CONNECTION": "@db_connection",
-        "DB_HOST": "@db_host",
-        "DB_PORT": "@db_port",
-        "DB_DATABASE": "@db_database",
-        "DB_USERNAME": "@db_username",
-        "DB_PASSWORD": "@db_password"
+      "APP_ENV": "production",
+      "APP_DEBUG": "false",
+      "APP_KEY": "@app_key",
+      "APP_URL": "https://your-vercel-app-url",
+      "DB_CONNECTION": "@db_connection",
+      "DB_HOST": "@db_host",
+      "DB_PORT": "@db_port",
+      "DB_DATABASE": "@db_database",
+      "DB_USERNAME": "@db_username",
+      "DB_PASSWORD": "@db_password"
     }
-}
+  }
+  
