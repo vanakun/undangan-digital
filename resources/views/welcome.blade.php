@@ -82,7 +82,7 @@
           <h1 class="animate__animated animate__jackInTheBox animate__delay-1s">
             Simply Manageable, Forever Memoreable <br />
             Find out how Percetakanku can help you <br />
-            to manage guest in your event
+            to create invitation your event
 
           </h1>
           <p class="animate__animated animate__fadeInUp animate__delay-1s">
