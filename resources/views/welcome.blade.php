@@ -86,8 +86,8 @@
 
           </h1>
           <p class="animate__animated animate__fadeInUp animate__delay-1s">
-          Now enabling post-pandemic event to create seamless and simple visitor registration and check in process.  <br />
-          Reduce queues and unnecessary crowd and encourage more people to visit your exhibition with our streamlined guest management solution.
+          Now enabling post-pandemic event to create seamless and simple .  <br />
+          unnecessary crowd and encourage more people to visit your exhibition solution.
           </p>
         </div>
 
@@ -155,8 +155,8 @@
               <img src="assets/img/website.jpg" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
               <div class="desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                 <h1>
-                  Website <br />
-                  Development
+                  Invitation <br />
+                  Digital
                 </h1>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
@@ -176,8 +176,8 @@
             <div class="boxs">
               <div class="desc" data-aos="fade-up" data-aos-duration="1000">
                 <h1>
-                  Mobile <br />
-                  Development
+                  Invitation <br />
+                  Fisik
                 </h1>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
